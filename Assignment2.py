@@ -64,10 +64,10 @@ print(distance1)
 #for the coin flips, 0 = tails and 1 = heads
 #init the outcomes list
 outcome = []
-#setting the seed for random so we get the same results everytime. This is just for the assignment and would be like this in a real solution
-random.seed(42)
 #init the mode variable
 mo = 0
+#setting the seed for random so we get the same results everytime. This is just for the assignment and would be like this in a real solution
+random.seed(42)
 #make the function for coin flips. It will take 1 param
 def coinflips(times):
     #if the times is equal to zero the calculate the mode
