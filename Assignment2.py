@@ -64,6 +64,8 @@ print(distance1)
 #for the coin flips, 0 = tails and 1 = heads
 #init the outcomes list
 outcome = []
+#setting the seed for random so we get the same results everytime. This is just for the assignment and would be like this in a real solution
+random.seed(42)
 #init the mode variable
 mo = 0
 #make the function for coin flips. It will take 1 param
